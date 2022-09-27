@@ -1,0 +1,862 @@
+!SESSION 2022-08-08 23:20:04.184 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.14
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-08-08 23:20:31.726
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-08-08 23:20:33.755
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+!SESSION 2022-08-08 23:22:10.370 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.14
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-08-08 23:22:21.895
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-08-08 23:22:23.131
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-08-08 23:24:05.177
+!MESSAGE Dakota's exit code was 251
+!STACK 0
+java.lang.Exception: Dakota's exit code was 251
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-08-08 23:24:07.521
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-08-08 23:24:07.533
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-08-08 23:24:07.539
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-08-08 23:24:07.545
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-08-08 23:24:07.550
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-08-08 23:24:07.559
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+!SESSION 2022-08-10 23:50:08.777 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.14
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-08-10 23:50:31.435
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-08-10 23:50:35.260
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+!SESSION 2022-09-24 20:42:35.298 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.14
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-24 20:42:44.762
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-24 20:42:46.968
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-24 21:15:23.147
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-24 21:15:23.149
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-24 21:15:23.150
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-24 21:15:23.152
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-24 21:15:23.153
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-24 21:15:23.159
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY gov.sandia.dakota.runner 4 4 2022-09-24 21:15:39.625
+!MESSAGE Could not use the provided path "" to Dakota executable.  Is your path correctly configured?
+!STACK 0
+java.io.FileNotFoundException: Could not use the provided path "" to Dakota executable.  Is your path correctly configured?
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.getDakotaExePath(DakotaRunnerLaunchConfigurationDelegate.java:205)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:116)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.console 4 120 2022-09-24 21:15:39.628
+!MESSAGE Error within Debug UI: 
+!STACK 0
+java.io.FileNotFoundException: Could not use the provided path "" to Dakota executable.  Is your path correctly configured?
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.lambda$1(DakotaRunnerLaunchConfigurationDelegate.java:207)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at gov.sandia.dart.application.AbstractDARTApplication.startHeadedClient(AbstractDARTApplication.java:240)
+	at gov.sandia.dart.application.AbstractDARTApplication.doStart(AbstractDARTApplication.java:194)
+	at gov.sandia.dart.application.AbstractDARTApplication.start(AbstractDARTApplication.java:171)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY gov.sandia.dakota.runner 4 4 2022-09-24 21:16:24.809
+!MESSAGE Could not use the provided path "" to Dakota executable.  Is your path correctly configured?
+!STACK 0
+java.io.FileNotFoundException: Could not use the provided path "" to Dakota executable.  Is your path correctly configured?
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.getDakotaExePath(DakotaRunnerLaunchConfigurationDelegate.java:205)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:116)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.console 4 120 2022-09-24 21:16:24.811
+!MESSAGE Error within Debug UI: 
+!STACK 0
+java.io.FileNotFoundException: Could not use the provided path "" to Dakota executable.  Is your path correctly configured?
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.lambda$1(DakotaRunnerLaunchConfigurationDelegate.java:207)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at gov.sandia.dart.application.AbstractDARTApplication.startHeadedClient(AbstractDARTApplication.java:240)
+	at gov.sandia.dart.application.AbstractDARTApplication.doStart(AbstractDARTApplication.java:194)
+	at gov.sandia.dart.application.AbstractDARTApplication.start(AbstractDARTApplication.java:171)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY gov.sandia.dakota.runner 4 4 2022-09-24 21:18:11.741
+!MESSAGE Could not use the provided path "" to Dakota executable.  Is your path correctly configured?
+!STACK 0
+java.io.FileNotFoundException: Could not use the provided path "" to Dakota executable.  Is your path correctly configured?
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.getDakotaExePath(DakotaRunnerLaunchConfigurationDelegate.java:205)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:116)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.console 4 120 2022-09-24 21:18:11.743
+!MESSAGE Error within Debug UI: 
+!STACK 0
+java.io.FileNotFoundException: Could not use the provided path "" to Dakota executable.  Is your path correctly configured?
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.lambda$1(DakotaRunnerLaunchConfigurationDelegate.java:207)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at gov.sandia.dart.application.AbstractDARTApplication.startHeadedClient(AbstractDARTApplication.java:240)
+	at gov.sandia.dart.application.AbstractDARTApplication.doStart(AbstractDARTApplication.java:194)
+	at gov.sandia.dart.application.AbstractDARTApplication.start(AbstractDARTApplication.java:171)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SESSION 2022-09-24 21:24:07.121 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.14
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-24 21:24:24.808
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-24 21:24:27.133
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-24 21:24:40.712
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-24 21:24:40.713
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-24 21:24:40.715
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-24 21:24:40.716
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-24 21:24:40.717
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-24 21:24:40.722
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-24 21:24:50.814
+!MESSAGE Dakota's exit code was 251
+!STACK 0
+java.lang.Exception: Dakota's exit code was 251
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-09-25 21:19:24.268 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.14
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-25 21:19:43.497
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-25 21:19:45.723
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-25 21:59:08.690
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-25 21:59:08.691
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-25 21:59:08.692
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-25 21:59:08.693
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-25 21:59:08.694
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-25 21:59:08.700
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY gov.sandia.dakota.parser 4 4 2022-09-25 22:00:50.996
+!MESSAGE Partitioning error: bad location 486 569
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.AbstractDocument.addPosition(AbstractDocument.java:350)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.addPosition(SynchronizableDocument.java:212)
+	at gov.sandia.dakota.parser.editor.DakotaPartitioner.createPartition(DakotaPartitioner.java:184)
+	at gov.sandia.dakota.parser.editor.DakotaPartitioner.createPartitions(DakotaPartitioner.java:170)
+	at gov.sandia.dakota.parser.editor.DakotaPartitioner.reparse(DakotaPartitioner.java:161)
+	at gov.sandia.dakota.parser.editor.DakotaPartitioner.lambda$0(DakotaPartitioner.java:85)
+	at gov.sandia.bb.commons.timer.ActionTimerManager.lambda$0(ActionTimerManager.java:94)
+	at java.base/java.lang.Thread.run(Unknown Source)
+!SESSION 2022-09-26 21:29:02.270 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.14
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Mitchell Neilsen\Documents\dakota_gui_workspace
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 21:29:06.415
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 21:29:07.416
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-26 21:34:41.524
+!MESSAGE Dakota's exit code was 255
+!STACK 0
+java.lang.Exception: Dakota's exit code was 255
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 21:34:44.598
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 21:34:44.599
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 21:34:44.601
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 21:34:44.602
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 21:34:44.603
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 21:34:44.608
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-26 21:35:28.632
+!MESSAGE Dakota's exit code was 255
+!STACK 0
+java.lang.Exception: Dakota's exit code was 255
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-26 21:35:54.694
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-26 21:36:33.368
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-26 21:38:15.649
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-26 21:40:06.722
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-26 21:43:21.044
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-09-26 21:54:50.782 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.14
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 21:54:55.055
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 21:54:56.058
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 21:55:27.312
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 21:55:27.314
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 21:55:27.315
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 21:55:27.316
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 21:55:27.317
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 21:55:27.322
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-26 22:15:12.805
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-26 22:15:37.204
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-26 22:18:55.804
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-09-26 22:22:11.731 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.14
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 22:22:16.184
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 22:22:17.273
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 22:22:25.870
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 22:22:25.872
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 22:22:25.873
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 22:22:25.875
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 22:22:25.876
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-26 22:22:25.881
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-26 22:22:44.280
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-26 22:24:03.656
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-26 22:27:09.464
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-26 22:30:51.470
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.console 4 2 2022-09-26 22:31:21.380
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.console.IOConsole.dispose(IOConsole.java:323)
+	at org.eclipse.ui.console.AbstractConsole.destroy(AbstractConsole.java:265)
+	at org.eclipse.ui.console.AbstractConsole$Lifecycle.consolesRemoved(AbstractConsole.java:75)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:156)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at gov.sandia.dakota.runner.console.DakotaConsolePageParticipant$2.run(DakotaConsolePageParticipant.java:79)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:453)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at gov.sandia.dart.application.AbstractDARTApplication.startHeadedClient(AbstractDARTApplication.java:240)
+	at gov.sandia.dart.application.AbstractDARTApplication.doStart(AbstractDARTApplication.java:194)
+	at gov.sandia.dart.application.AbstractDARTApplication.start(AbstractDARTApplication.java:171)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.console 4 120 2022-09-26 22:31:21.381
+!MESSAGE An exception occurred during console notification
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.console.IOConsole.dispose(IOConsole.java:323)
+	at org.eclipse.ui.console.AbstractConsole.destroy(AbstractConsole.java:265)
+	at org.eclipse.ui.console.AbstractConsole$Lifecycle.consolesRemoved(AbstractConsole.java:75)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:156)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:233)
+	at gov.sandia.dakota.runner.console.DakotaConsolePageParticipant$2.run(DakotaConsolePageParticipant.java:79)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:453)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at gov.sandia.dart.application.AbstractDARTApplication.startHeadedClient(AbstractDARTApplication.java:240)
+	at gov.sandia.dart.application.AbstractDARTApplication.doStart(AbstractDARTApplication.java:194)
+	at gov.sandia.dart.application.AbstractDARTApplication.start(AbstractDARTApplication.java:171)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-26 22:31:27.336
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-26 22:34:32.478
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-26 22:41:09.059
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-26 22:41:36.969
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-26 22:43:41.624
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-27 09:41:13.333
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-27 09:41:15.599
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-27 09:48:01.872
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-27 11:00:33.513
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-09-27 11:31:19.992 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.14
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-27 11:31:24.635
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-27 11:31:25.702
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-27 11:32:08.632
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-27 11:32:08.636
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-27 11:32:08.639
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-27 11:32:08.643
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-27 11:32:08.646
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2022-09-27 11:32:08.652
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-27 12:09:37.576
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-27 12:11:08.868
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-27 12:17:34.178
+!MESSAGE Dakota's exit code was 254
+!STACK 0
+java.lang.Exception: Dakota's exit code was 254
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-27 12:19:24.426
+!MESSAGE Dakota's exit code was 254
+!STACK 0
+java.lang.Exception: Dakota's exit code was 254
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2022-09-27 12:19:46.258
+!MESSAGE Dakota's exit code was 252
+!STACK 0
+java.lang.Exception: Dakota's exit code was 252
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

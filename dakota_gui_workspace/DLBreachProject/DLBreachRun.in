@@ -1,0 +1,35 @@
+# DAKOTA INPUT FILE
+
+environment,
+	  tabular_graphics_data
+	    tabular_graphics_file = 'dakota_multidim.dat'
+
+method,
+	id_method = 'CPS'									 
+	multidim_parameter_study
+	  partitions = 2 2
+
+model, 
+	id_model = 'single'
+	single
+
+variables,
+	id_variables = 'continuous'
+        continuous_design = 2
+	  lower_bounds	13.3	1.5
+	  upper_bounds	15.6	66.0
+	  descriptors   'pd'    'kd'
+
+interface,
+	id_interface = 'bat'
+	system					
+	  analysis_driver = 'DLBreach.bat'
+	  parameters_file = 'params.in'		
+	  results_file    = 'results.out'
+#	file_save	
+
+responses,
+	id_responses = 'max_breach_discharge breach_width'
+	num_response_functions = 2             
+	no_gradients
+	no_hessians

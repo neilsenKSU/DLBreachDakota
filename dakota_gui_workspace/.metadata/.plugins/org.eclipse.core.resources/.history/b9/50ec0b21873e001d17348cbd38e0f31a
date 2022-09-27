@@ -1,0 +1,26 @@
+#
+# parseOut.py - parse .out file to extract peak breach discharge
+# 
+#    Time(hr),     Qbreach,    Qspill,    zs_upstr, zs_downstr, zb_breach, B_bottom,    B_top,  Areabreach, Brchsideslope, Vol_watout, USSedRate, DSSedRate 
+#     0.00132      0.18203      0.00000    13.5000     0.0023     2.2996     0.2008     0.2008     0.0403 **********          0.906    0.00000    0.00384
+#     0.00271      0.18382      0.00000    13.5000     0.0023     2.2992     0.2015     0.2015     0.0406 **********          1.821    0.00000    0.00387
+#
+def readdata(file_name,start_line=2): # ignore first two lines
+    with open(file_name,'r') as f:
+    	data = f.read().split('\n')
+    data = [i.split() for i in data[start_line:len(data)-1]]
+    for i in range(len(data)):
+   		row = [(sub) for sub in data[i] if len(sub)!=0]
+   		yield float(row[0]),float(row[1])
+    	
+iterator = readdata('BigBay_cards.out')
+
+timeVal, flowVal = zip(*iterator)
+
+max_Flow = max(flowVal)
+
+print('Max flow: ', max_Flow)
+
+with open('results.out', "w") as of:
+	of.write(str(max_Flow)+ "    f")
+	

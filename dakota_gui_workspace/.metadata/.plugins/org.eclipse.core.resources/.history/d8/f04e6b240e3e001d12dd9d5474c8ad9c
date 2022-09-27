@@ -1,0 +1,30 @@
+# DAKOTA INPUT FILE
+
+environment,
+	  tabular_graphics_data
+	  tabular_graphics_file = 'dakota_multidim.dat'
+
+method,									 
+	multidim_parameter_study
+	  partitions = 2 2 1
+
+model, 
+	single
+
+variables,
+        continuous_design = 3
+	  lower_bounds	               0.3	  300            0
+	  upper_bounds             70.0	1700            5
+	  descriptors                    'Kd'           'Us'         'Scale'
+
+interface,
+	fork					
+	  analysis_driver = '004high.bat'
+	  parameters_file = 'params.in'		
+	  results_file    = 'results.out'
+ 	file_save	
+
+responses,
+	num_response_functions = 1             
+	no_gradients
+	no_hessians

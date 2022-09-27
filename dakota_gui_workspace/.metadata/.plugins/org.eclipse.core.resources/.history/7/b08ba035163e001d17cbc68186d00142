@@ -1,0 +1,3 @@
+perl dprepro params.in BigBay_cards_template.txt BigBay_cards.txt
+DLBreach_Barrier.exe << 'BigBay_cards'
+python parseOut.py BigBay_cards.out results.out

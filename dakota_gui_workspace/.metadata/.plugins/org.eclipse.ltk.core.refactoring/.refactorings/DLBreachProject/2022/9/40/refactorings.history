@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;DLBreachProject/004high.in&apos; to &apos;DLBreachRun.in&apos;" description="Rename resource &apos;004high.in&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="004high.in" name="DLBreachRun.in" stamp="1664247362119" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;DLBreachProject/004high.bat&apos; to &apos;DLBreach.bat&apos;" description="Rename resource &apos;004high.bat&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="004high.bat" name="DLBreach.bat" stamp="1664247492358" updateReferences="true"/>
+</session>

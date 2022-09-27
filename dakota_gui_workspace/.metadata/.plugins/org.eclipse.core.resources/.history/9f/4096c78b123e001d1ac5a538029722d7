@@ -1,0 +1,4 @@
+perl parseWinDamIn params.in newParams.in
+perl dprepro newParams.in 004high.WDT example.WDC
+WinDamSim.exe example.WDC
+perl parseWinDamOut example.OUT results.out
