@@ -6,15 +6,15 @@ Water_Density                       1000.0     ! in kg/m^3
 
 Water_Kinematic_Viscosity           0.000001   ! m^2/s
 
-Embankment_Height                   15.6       ! in m
-Embankment_Crest_Width              17.0       ! in m
+Embankment_Height                   17.4       ! in m MLN
+Embankment_Crest_Width              12.2       ! in m MLN
 Embankment_Upstream_Slope           0.3333     ! Vertical/Horizontal
 Embankment_Downstream_Slope         0.3333     ! Vertical/Horizontal
-Embankment_Length                   576.0      ! in m
+Embankment_Length                   600.0      ! in m MLN
 
 Breach_Mode                         2          !=1, Overtopping; =2, Piping
   
-Initial_Piping_Breach               {pd}, 0.2  ! Dakota cd was 14 (15.6-13.3) pipe depth & width, in meter
+Initial_Piping_Breach               {pd}, {pw} ! Dakota cd was 14 (15.6-13.3) pipe depth & width (was 0.2, pw 0.01 to 0.05, in meter
 
 Pipe_Local_Head_Loss_Coefficient    0.05
 

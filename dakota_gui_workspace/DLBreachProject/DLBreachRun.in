@@ -7,7 +7,7 @@ environment,
 method,
 	id_method = 'CPS'									 
 	multidim_parameter_study
-	  partitions = 2 2
+	  partitions = 2 2 2
 
 model, 
 	id_model = 'single'
@@ -15,10 +15,10 @@ model,
 
 variables,
 	id_variables = 'continuous'
-        continuous_design = 2
-	  lower_bounds	13.3	1.5
-	  upper_bounds	15.6	66.0
-	  descriptors   'pd'    'kd'
+        continuous_design = 3
+	  lower_bounds	13.3	1.5    0.01
+	  upper_bounds	15.6	66.0   0.05
+	  descriptors   'pd'    'kd'   'pw'
 
 interface,
 	id_interface = 'bat'
