@@ -27,18 +27,21 @@ def readdata(file_name,start_line=2): # ignore first two lines
     data = [i.split() for i in data[start_line:len(data)-1]]
     for i in range(len(data)):
    		row = [(sub) for sub in data[i] if len(sub)!=0]
-   		yield float(row[1]),float(row[7])
+   		yield float(row[0]),float(row[1]),float(row[7])
     	
 iterator = readdata('BigBay_cards.out')
 
-flowVal, breachTopWidth = zip(*iterator)
+timeVal, flowVal, breachTopWidth = zip(*iterator)
 
 max_Flow = max(flowVal)
+max_Index = flowVal.index(max_Flow)
+max_Time = timeVal[max_Index]
 max_Width = max(breachTopWidth)
 
-print('Max flow: ', max_Flow, ', max breach top width: ', max_Width)
+print('Max flow: ', max_Flow, 'at time: ', max_Time,', max breach top width: ', max_Width)
 
 with open('results.out', "w") as of:
-	of.write(str(max_Flow)+ "    f\n")
-	of.write(str(max_Width)+ "    w\n")
+	of.write("%.5f" % max_Flow + "    f\n")
+	of.write("%.5f" % max_Width + "    w\n")
+	of.write("%.5f" % max_Time + "    t\n")
 	

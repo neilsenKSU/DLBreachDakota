@@ -1,0 +1,34 @@
+# DAKOTA INPUT FILE
+
+environment,
+	tabular_graphics_data
+	tabular_graphics_file = 'BigBay.dat'
+
+method,
+    id_method = 'multidim'									 
+	multidim_parameter_study
+	partitions = 6 3 5
+
+model, 
+	single
+
+variables,
+	id_variables = 'variables'
+	continuous_design = 3
+	lower_bounds             0.3     300     0
+	upper_bounds             70.1    1700    5
+	descriptors              'kd'    'uv'    'cw'
+
+interface,
+	id_interface = 'interface'
+	fork					
+	  analysis_driver = 'synthetic.bat'
+	  parameters_file = 'params.in'		
+	  results_file    = 'results.out'
+	file_save	
+
+responses,
+	id_responses = 'responses'
+	num_response_functions = 1             
+	no_gradients
+	no_hessians

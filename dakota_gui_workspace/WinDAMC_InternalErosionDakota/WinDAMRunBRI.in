@@ -27,13 +27,14 @@ variables,
 interface,
 	id_interface = 'bat'
 	system					
-	  analysis_driver = 'DLBreach.bat'
+	  analysis_driver = 'WinDAMbri.bat'
 	  parameters_file = 'params.in'		
 	  results_file    = 'results.out'
 #	file_save	
 
 responses,
-	id_responses = 'max_breach_discharge breach_width max_breach_time'
-	num_response_functions = 3             
+	id_responses = 'max_breach_width'
+	num_response_functions = 1             
 	no_gradients
 	no_hessians
+	descriptors 'w'
