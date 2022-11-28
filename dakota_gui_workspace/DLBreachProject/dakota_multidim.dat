@@ -1,4 +1,4 @@
-%eval_id interface             kd             pw             uv  response_fn_1  response_fn_2  response_fn_3 
+%eval_id interface             kd             pw             uv  peak discharge  peak width (m)      peak time (hr)
 1              bat            1.5           0.01       13870000      770.57434        40.9904        2.37215 
 2              bat          33.75           0.01       13870000     4358.76855       160.5395        1.00549 
 3              bat             66           0.01       13870000     6021.23682       223.5749        0.71382 
