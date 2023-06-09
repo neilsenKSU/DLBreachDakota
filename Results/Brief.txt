@@ -1,0 +1,113 @@
+Result abbreviations are as defined in the Phase 3 modeling specification
+
+Analysis for DLBreach does not include depth of the pipe/cut as that information cannot be reliably extracted from the output of the simulation.
+Analysis for WinDAM measures width of the cut from the top, though the output from the simulation does include the width at the bottom as well.
+
+For WinDAM, the following conversion factors were used to translate metric inputs to imperial units:
+	Unit weight: 6.366
+	K-d: 0.565
+	Tau-c: 0.02089
+	Crest width/height and pipe width/elevation: 3.28084
+	Volume: 1/1233.481
+	
+
+Big Bay:
+	DLBreach:
+		CoKdTauc:
+			Cohesion	13 values across a range of [5, 15] kPa			default of 10 kPa
+			K-d			13 values across a range of [1.5, 66] cm^3/N.s	default of 33 cm^3/N.s
+			Tau-c		10 values across a range of [1, 4] Pa			default of 1.5 Pa
+		(Tau-c was supposed to run to 5 Pa for 13 values, but stops at 4. Further investigation needed to determine the cause)
+		Number of runs: 1690
+		
+		PdPoFa:
+			Particle Diameter		13 values across a range of [0.1,0.6] mm	default of 0.3 mm
+			Porosity				13 values across a range of [0.235, 0.349]	default of 0.297
+			Frication Angle Tangent	13 values across a range of [0.577, 0.675]	default of 0.6
+		Number of runs: 2197
+		
+		ChCwUv:
+			Crest Height	13 values across a range of [15.51, 15.61] m			default of 15.56 m		
+			Crest Width		13 values across a range of [11.6, 12.8] m				default of 12.2 m
+			Lower Volume	13 values across a range of [13870000, 17284449.6] m^3	default of 15577224.8 m
+		Number of runs: 2197
+		
+		PwMnUv:
+			Pipe Width	 	13 values across a range of [0.01, 0.05] m				default of 0.013 m
+			Manning's N	 	13 values across a range of [0.016, 0.035]				default of 0.025
+			Lower Volume 	13 values across a range of [13870000, 17284449.6] m^3	default of 15577224.8 m
+		Number of runs: 2197
+	
+		Total number of runs: 8281
+	
+	WinDAM C:
+		PwPhUv:
+			Pipe Width		13 values across a range of [0.01, 0.05] m				default of 0.013 m
+			Pipe Elevation	13 values across a range of [0, 6] m					default of 0.3 m
+			Lower Volume	13 values across a range of [13870000, 17284449.6] m^3	default of 15577224.8 m
+		Number of runs: 2197
+			
+		MnCwCh:
+			Manning's N		13 values across a range of [0.016, 0.035]		default of 0.025
+			Crest Width		13 values across a range of [11.6, 12.8] m		default of 12.2 m
+			Crest Height	13 values across a range of [15.51, 15.61] m	default of 15.56 m
+		Number of runs: 2197
+		
+		WtKdTau:
+			Unit Weight		13 values across a range of [18, 21] kN/m^3		default of 19 kN/m^3
+			K-d				13 values across a range of [1.5, 66] cm^3/N.s	default of 33 cm^3/N.s
+			Tau-c			13 values across a range of [1, 5] Pa			default of 1.5 Pa
+		Number of runs: 2197
+		
+		Total number of runs: 6591
+
+ARS P1:
+	DLBreach:
+		CoKdTau:
+			Cohesion	13 values across a range of [4, 9] kPa			default of 5.25 kPa
+			K-d			13 values across a range of [23, 270] cm^3/N.s	default of 120 cm^3/N.s
+			Tau-c		13 values across a range of [0.00, 0.16] Pa		default of 0.144 Pa
+		Number of runs: 2197
+		
+		PdPoFa:
+			Particle Diameter		13 values across a range of [0.1, 0.15] mm	default of 0.13 mm
+			Porosity				13 values across a range of [0.33, 0.45] 	default of 0.34
+			Friction Angle Tangent	13 values across a range of [0.577, 0.675]	default of 0.625
+		Number of runs: 2197
+		
+		SePhMn:
+			Surface Elevation	13 values across a range of [0.821, 1.003] m	default of 0.912 m
+			Pipe E.f.T.			13 values across a range of [0.9, 1.1] m		default of 1.0 m (Elevation from Top)
+			Manning's N			13 values across a range of [0.016, 0.033]		default of 0.025
+		Number of runs: 2197
+		
+		CcChCw:
+			Clay Content	13 values across a range of [6, 8] % 		default of 7%
+			Crest Height	13 values across a range of [1.2, 1.4] m	default of 1.3 m
+			Crest Width		13 values across a range of [1.78, 2.18] m	default of 1.98 m
+		Number of runs: 2197
+		
+		Total number of runs: 8788
+	
+	WinDAM C:
+		WtKdTau
+			Unit Weight	13 values across a range of [1.76, 2.09] g/cm^3	default of 1.91 g/cm^3
+			K-d			13 values across a range of [23, 270] cm^3/N.s	default of 120 cm^3/N.s
+			Tau-c		13 values across a range of [0.00, 0.16] Pa		default of 0.144 Pa
+		Number of runs: 2197
+		
+		MnPhSe
+			Surface Elevation	13 values across a range of [0.821, 1.003] m	default of 0.912 m
+			Pipe E.f.T.			13 values across a range of [0.9, 1.1] m		default of 1.0 m (Elevation from Top)
+			Manning's N			13 values across a range of [0.016, 0.033]		default of 0.025
+		Number of runs: 2197
+		
+		StCwCh
+			Shear Strength	13 values across a range of [229, 314] lb/ft^2	default of 272 lb/ft^2
+			Crest Height	13 values across a range of [1.2, 1.4] m		default of 1.3 m
+			Crest Width		13 values across a range of [1.78, 2.18] m		default of 1.98 m
+		Number of runs: 2197
+		
+		AllParams
+			Three values each of the above 9 parameters
+		Number of runs: 19683

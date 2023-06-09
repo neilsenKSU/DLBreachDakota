@@ -4558,3 +4558,45 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.strikewire.snl.apc.Common 2 0 2023-06-08 14:51:22.055
 !MESSAGE Unable to find any IExecutionEnvironment providers!
+!SESSION 2023-06-09 10:37:00.227 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.14
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2023-06-09 10:37:08.877
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2023-06-09 10:37:09.618
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2023-06-09 10:39:37.913
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2023-06-09 10:39:37.914
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2023-06-09 10:39:37.914
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2023-06-09 10:39:37.915
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2023-06-09 10:39:37.915
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2023-06-09 10:39:37.917
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+!SESSION 2023-06-09 12:54:49.326 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.14
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2023-06-09 12:55:05.748
+!MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY com.strikewire.snl.apc.Common 2 0 2023-06-09 12:55:06.568
+!MESSAGE Unable to find any IExecutionEnvironment providers!
