@@ -1,0 +1,11 @@
+chartreuse_default_canvas_font_size=18
+chartreuse_default_canvas_tick_font_size=14
+chartreuse_default_color_scale=SMOOTH_COOL_WARM
+chartreuse_default_font=Segoe UI
+chartreuse_default_font_size=26
+chartreuse_fast_sandbox_plot_options_dialog_default=0
+chartreuse_fast_sandbox_plot_options_dialog_show_again=true
+chartreuse_library=gov.sandia.chartreuse.impl.plotly
+chartreuse_plot_data_provider=gov.sandia.chartreuse.csv.bridge.plotdata.CsvPlotDataProvider
+chartreuse_use_online_processing=true
+eclipse.preferences.version=1

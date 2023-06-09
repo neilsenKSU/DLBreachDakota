@@ -21,27 +21,54 @@
 # 12. sediment discharge at downstream (m^3/s). 
 #
 
+# Height = B_top if Brchsideslope not present otherwise dam_height-zb_breach
+
+def isPresent(str):
+	try:
+		float(str)
+		return True
+	except ValueError:
+		return False
+
 def readdata(file_name,start_line=2): # ignore first two lines
-    with open(file_name,'r') as f:
-    	data = f.read().split('\n')
-    data = [i.split() for i in data[start_line:len(data)-1]]
-    for i in range(len(data)):
-   		row = [(sub) for sub in data[i] if len(sub)!=0]
-   		yield float(row[0]),float(row[1]),float(row[7])
+	with open(file_name,'r') as f:
+		data = f.read().split('\n')
+	data = [i.split() for i in data[start_line:len(data)-1]]
+	for i in range(len(data)):
+		row = [(sub) for sub in data[i] if len(sub)!=0]
+		width = float(row[7])
+		collapsed = isPresent(row[9])
+		# hard-coding dam height in calculation of the breach height
+		yield float(row[0]),float(row[1]),width,(15.56-float(row[5])) if collapsed else width,collapsed
     	
 iterator = readdata('BigBay_cards.out')
 
-timeVal, flowVal, breachTopWidth = zip(*iterator)
+timeVal, flowVal, breachTopWidth, breachDepth, isCollapsed = zip(*iterator)
 
 max_Flow = max(flowVal)
 max_Index = flowVal.index(max_Flow)
 max_Time = timeVal[max_Index]
 max_Width = max(breachTopWidth)
+max_Depth = max(breachDepth)
 
-print('Max flow: ', max_Flow, 'at time: ', max_Time,', max breach top width: ', max_Width)
+
+prc_Index = isCollapsed.index(True)
+prc_Time = timeVal[prc_Index]
+prc_Width_b = breachTopWidth[prc_Index-1]
+prc_Width_a = breachTopWidth[prc_Index]
+prc_Depth_b = breachDepth[prc_Index-1]
+prc_Depth_a = breachDepth[prc_Index]
+
+print('Max flow: ', max_Flow, 'at time: ', max_Time,', max breach top width: ', max_Width, ' max breach depth: ', max_Depth)
+print('Collapsed at time: ', prc_Time, ', breach top width: ', prc_Width_b, '-', prc_Width_a, ', breach depth: ', prc_Depth_b, '-', prc_Depth_a)
 
 with open('results.out', "w") as of:
 	of.write("%.5f" % max_Flow + "    f\n")
-	of.write("%.5f" % max_Width + "    w\n")
 	of.write("%.5f" % max_Time + "    t\n")
-	
+	of.write("%.5f" % max_Width + "    w\n")
+	of.write("%.5f" % max_Depth + "    d\n")
+	of.write("%.5f" % prc_Time + "    t\n")
+	of.write("%.5f" % prc_Width_b + "    w\n")
+	of.write("%.5f" % prc_Width_a + "    w\n")
+	of.write("%.5f" % prc_Depth_b + "    d\n")
+	of.write("%.5f" % prc_Depth_a + "    d\n")

@@ -1,2 +1,6 @@
+Console.highWaterMark=9000
+Console.lowWaterMark=1000
 eclipse.preferences.version=1
+org.eclipse.debug.ui.PREF_FILTER_LAUNCH_TYPES=true
+org.eclipse.debug.ui.PREF_FILTER_TYPE_LIST=,org.eclipse.jdt.launching.javaApplet,org.eclipse.jdt.launching.localJavaApplication,org.eclipse.jdt.launching.remoteJavaApplication,org.eclipse.ui.externaltools.ProgramLaunchConfigurationType
 org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives/>\r\n

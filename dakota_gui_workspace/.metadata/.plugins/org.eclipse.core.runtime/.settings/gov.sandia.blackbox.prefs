@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+gov.sandia.blackbox.varresp.data.provider.list=gov.sandia.blackbox.iwf.provider.IwfVarRespDataProvider;gov.sandia.blackbox.aprepro.provider.ApreproVarRespDataProvider;gov.sandia.blackbox.bmf.provider.BmfVarRespDataProvider;gov.sandia.blackbox.dakota.provider.DakotaFileVarRespDataProvider;gov.sandia.blackbox.dakota.surrogate.provider.SurrogateFileVarRespDataProvider;gov.sandia.blackbox.im.provider.ImVarRespDataProvider
