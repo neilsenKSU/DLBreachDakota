@@ -1,10 +1,10 @@
 Windows Dam Analysis Program                    Execution Date-06/12/2023
- Program Date-10/06/2022        Version Date-1.1.13              Time-11:34:55
+ Program Date-10/06/2022        Version Date-1.1.13              Time-13:13:07
 
- Listing of Input Data-          IE Models Eval - BigBay                           
- WINDAM    10/06/2022IE Models Eval - BigBay                                     
+ Listing of Input Data-          IE Models Eval - P1                               
+ WINDAM    10/06/2022IE Models Eval - P1                                         
  OPTION    SIMPLE    BARESOIL  NOPS      INTERNAL                                
- IEMODEL   2         12.15906  67.8      272       0.00300816                    
+ IEMODEL   2         0013.3049 0152.5500 0314.0000 0.0033                        
  HYD                 0.1       0         0C                                      
                      0         0         0         0         0                   
                      0         0         0         0         0                   
@@ -77,11 +77,11 @@ Windows Dam Analysis Program                    Execution Date-06/12/2023
                      0                                                           
  ENDTABLE                                                                        
  CRESTPRFL                                                                       
-           0         4.265                                                       
-           31.98819  4.265                                                       
+           0         0004.5932                                                   
+           31.98819  0004.5932                                                   
  ENDTABLE                                                                        
- STROUTE   3.291     0         ELEV                                              
- STRUCTURE BigBay                                                                
+ STROUTE   0003.2910 0         ELEV                                              
+ STRUCTURE P1                                                                    
                      0                   0                                       
                      0.361               0.061                                   
                      0.591               0.115                                   
@@ -95,9 +95,9 @@ Windows Dam Analysis Program                    Execution Date-06/12/2023
                      4.003               1.080                                   
  ENDTABLE                                                                        
  UPSTREAM  3         0.016                                                       
- DAMCREST  6.496     0.016                                                       
+ DAMCREST  0007.1522 0.016                                                       
  DWNSTREAM 3         0.016                                                       
- CONDUIT   0.131     0.131     0.984252  15.994                                  
+ CONDUIT   0.131     0.131     0001.3123 15.994                                  
  TAILWATER                                                                       
  ENDTABLE                                                                        
  OUTPUT    ALL                                                                   
@@ -108,7 +108,7 @@ Windows Dam Analysis Program                    Execution Date-06/12/2023
 
 ----------------------------------------------------------------------------------------
 Windows Dam Analysis Program     Execution Date - 06/12/2023
-Program Date - 10/06/2022        Version Number - 1.1.13          Time - 11:34:55
+Program Date - 10/06/2022        Version Number - 1.1.13          Time - 13:13:07
 Input File - ARSP1.WDC                                                                                                                                                                                                                                                       
 ----------------------------------------------------------------------------------------
 ********** Elevation Summary 1 *********************************************************
@@ -120,22 +120,22 @@ Aux Spwy # 1 Crest Elevation:                     none
 Aux Spwy # 2 Crest Elevation:                     none
 Aux Spwy # 3 Crest Elevation:                     none
 Max Pool Elevation:                               3.29 feet
-Initial Low Point in Dam Crest:                   4.26 feet
-Ending Low Point in Dam Crest:                    4.26 feet
+Initial Low Point in Dam Crest:                   4.59 feet
+Ending Low Point in Dam Crest:                    4.59 feet
 ****************************************************************************************
 
 
 ********** Flow Summary 2 **************************************************************
 Peak Inflow:                                      0.00 cfs @        0.0 hours
-Peak Outflow:                                    61.84 cfs @        0.1 hours
+Peak Outflow:                                    89.10 cfs @        0.1 hours
 Max Flow Principal Spwy:                          0.00 cfs @        0.0 hours
 Max Flow Aux Spwy # 1:                            none
 Max Flow Aux Spwy # 2:                            none
 Max Flow Aux Spwy # 3:                            none
 Maximum flow over top of dam:                     0.00 cfs @        0.0 hours
 Duration of dam overtopping:                                        0.0 hours
-Max unit discharge, low point or breach:         15.24 cfs/ft
-Maximum internal erosion conduit flow:           61.84 cfs
+Max unit discharge, low point or breach:         13.60 cfs/ft
+Maximum internal erosion conduit flow:           89.10 cfs
 ****************************************************************************************
 
 
@@ -180,14 +180,14 @@ Aux Spwy #3 Erosion Analysis:                         none
 
 ********** Internal Erosion Summary Table 5 ********************************************
 Dam Breach Analysis type:                                       Internal Erosion
-Initial Conduit Elevation:                                  0.98 feet
+Initial Conduit Elevation:                                  1.31 feet
 Initial Conduit Station:                                   15.99 feet
 Initial Conduit Width:                                      0.13 feet
 Initial Conduit Height:                                     0.13 feet
-Max. Internal Erosion conduit flow:                         61.84 cfs @        0.1 hours
-Initial Low Point in Dam Crest Profile:                     4.26 feet
+Max. Internal Erosion conduit flow:                         89.10 cfs @        0.1 hours
+Initial Low Point in Dam Crest Profile:                     4.59 feet
 Maximum Pool Elevation:                                     3.29 feet @        0.0 hours
-Ending Low Point in Dam Crest Profile:                      4.26 feet @        0.0 hours
+Ending Low Point in Dam Crest Profile:                      4.59 feet @        0.0 hours
 ****************************************************************************************
 
 
@@ -212,18 +212,16 @@ No stress occurred on embankment face.
       Time    Inflow   Outflow   Outflow   Outflow   Outflow   Outflow   Outflow   Outflow Elevation Elevation
      (hrs)     (cfs)     (cfs)     (cfs)     (cfs)     (cfs)     (cfs)     (cfs)     (cfs)    (feet)    (feet)
        0.0      0.00      0.00                                    0.00      0.04      0.04      3.29      0.00           @
-       0.0      0.00      0.00                                    0.00      2.71      2.71      3.28      0.00           @
-       0.1      0.00      0.00                                    0.00     43.30     43.30      3.12      0.00           @
-       0.1      0.00      0.00                                    0.00     59.98     59.98      2.77      0.00           @
-       0.1      0.00      0.00                                    0.00     61.84     61.84      2.35      0.00            
-       0.2      0.00      0.00                                    0.00     28.29     28.29      0.98      0.00            
-       0.3      0.00      0.00                                    0.00      6.01      6.01      0.36      0.00            
-       0.4      0.00      0.00                                    0.00      1.73      1.73      0.18      0.00            
-       0.5      0.00      0.00                                    0.00      0.78      0.78      0.12      0.00            
-       0.6      0.00      0.00                                    0.00      0.44      0.44      0.09      0.00            
-       0.7      0.00      0.00                                    0.00      0.28      0.28      0.07      0.00            
-       0.8      0.00      0.00                                    0.00      0.20      0.20      0.06      0.00            
-       0.9      0.00      0.00                                    0.00      0.14      0.14      0.05      0.00            
+       0.0      0.00      0.00                                    0.00      0.17      0.17      3.29      0.00           @
+       0.1      0.00      0.00                                    0.00     26.54     26.54      3.20      0.00           @
+       0.1      0.00      0.00                                    0.00     82.45     82.45      2.82      0.00           @
+       0.1      0.00      0.00                                    0.00     89.10     89.10      2.23      0.00            
+       0.2      0.00      0.00                                    0.00     17.79     17.79      0.53      0.00            
+       0.3      0.00      0.00                                    0.00      1.34      1.34      0.13      0.00            
+       0.4      0.00      0.00                                    0.00      0.54      0.54      0.08      0.00            
+       0.5      0.00      0.00                                    0.00      0.29      0.29      0.06      0.00            
+       0.6      0.00      0.00                                    0.00      0.18      0.18      0.05      0.00            
+       0.7      0.00      0.00                                    0.00      0.13      0.13      0.04      0.00            
 
      @ = Time step has been subdivided for more accurate calculations.
 
@@ -275,55 +273,55 @@ No stress occurred on embankment face.
       4.00                                              0.00                0.00
       4.10                                              0.00                0.00
       4.20                                              0.00                0.00
-      4.30                                              0.32                0.00
-      4.40                                              3.80                0.00
-      4.50                                              9.69                0.00
-      4.60                                             17.22                0.00
-      4.70                                             26.12                0.00
-      4.80                                             36.21                0.00
-      4.90                                             47.34                0.00
-      5.00                                             59.39                0.00
-      5.10                                             72.40                0.00
-      5.20                                             86.11                0.00
-      5.30                                            100.65                0.00
-      5.40                                            116.02                0.00
-      5.50                                            132.03                0.00
-      5.60                                            148.68                0.00
-      5.70                                            166.02                0.00
-      5.80                                            183.95                0.00
-      5.90                                            202.45                0.00
-      6.00                                            221.58                0.00
-      6.10                                            241.31                0.00
-      6.20                                            261.54                0.00
-      6.30                                            282.26                0.00
-      6.40                                            303.61                0.00
-      6.50                                            325.39                0.00
-      6.60                                            347.70                0.00
-      6.70                                            370.46                0.00
-      6.80                                            393.71                0.00
-      6.90                                            417.43                0.00
-      7.00                                            441.65                0.00
-      7.10                                            466.27                0.00
-      7.20                                            491.37                0.00
-      7.30                                            516.89                0.00
-      7.40                                            542.85                0.00
-      7.50                                            569.24                0.00
-      7.60                                            596.03                0.00
-      7.70                                            623.18                0.00
-      7.80                                            650.78                0.00
-      7.90                                            678.77                0.00
-      8.00                                            707.14                0.00
-      8.10                                            735.95                0.00
-      8.20                                            765.05                0.00
-      8.30                                            794.53                0.00
-      8.40                                            824.50                0.00
-      8.50                                            854.66                0.00
-      8.60                                            885.34                0.00
-      8.70                                            916.25                0.00
-      8.80                                            947.58                0.00
-      8.90                                            979.27                0.00
-      9.00                                           1011.23                0.00
-      9.10                                           1043.63                0.00
+      4.30                                              0.00                0.00
+      4.40                                              0.00                0.00
+      4.50                                              0.00                0.00
+      4.60                                              0.01                0.00
+      4.70                                              2.49                0.00
+      4.80                                              7.75                0.00
+      4.90                                             14.82                0.00
+      5.00                                             23.35                0.00
+      5.10                                             33.08                0.00
+      5.20                                             43.88                0.00
+      5.30                                             55.68                0.00
+      5.40                                             68.37                0.00
+      5.50                                             81.90                0.00
+      5.60                                             96.31                0.00
+      5.70                                            111.38                0.00
+      5.80                                            127.09                0.00
+      5.90                                            143.67                0.00
+      6.00                                            160.77                0.00
+      6.10                                            178.53                0.00
+      6.20                                            196.87                0.00
+      6.30                                            215.83                0.00
+      6.40                                            235.38                0.00
+      6.50                                            255.47                0.00
+      6.60                                            276.08                0.00
+      6.70                                            297.20                0.00
+      6.80                                            318.85                0.00
+      6.90                                            340.98                0.00
+      7.00                                            363.65                0.00
+      7.10                                            386.75                0.00
+      7.20                                            410.36                0.00
+      7.30                                            434.41                0.00
+      7.40                                            458.94                0.00
+      7.50                                            483.86                0.00
+      7.60                                            509.23                0.00
+      7.70                                            535.06                0.00
+      7.80                                            561.32                0.00
+      7.90                                            587.96                0.00
+      8.00                                            615.06                0.00
+      8.10                                            642.56                0.00
+      8.20                                            670.43                0.00
+      8.30                                            698.68                0.00
+      8.40                                            727.36                0.00
+      8.50                                            756.34                0.00
+      8.60                                            785.76                0.00
+      8.70                                            815.51                0.00
+      8.80                                            845.63                0.00
+      8.90                                            876.16                0.00
+      9.00                                            907.05                0.00
+      9.10                                            938.23                0.00
 
 
  Listing of Tabular Data-Expanded Volume

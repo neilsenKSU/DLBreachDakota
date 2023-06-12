@@ -4630,3 +4630,51 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.strikewire.snl.apc.Common 2 0 2023-06-12 11:14:26.421
 !MESSAGE Unable to find any IExecutionEnvironment providers!
+
+!ENTRY gov.sandia.dakota.runner 2 2 2023-06-12 12:11:59.168
+!MESSAGE Dakota's exit code was 1
+!STACK 0
+java.lang.Exception: Dakota's exit code was 1
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2023-06-12 12:12:33.851
+!MESSAGE Dakota's exit code was 1
+!STACK 0
+java.lang.Exception: Dakota's exit code was 1
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2023-06-12 12:50:44.130
+!MESSAGE Dakota's exit code was 1
+!STACK 0
+java.lang.Exception: Dakota's exit code was 1
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY gov.sandia.dakota.runner 2 2 2023-06-12 12:51:51.058
+!MESSAGE Dakota's exit code was 1
+!STACK 0
+java.lang.Exception: Dakota's exit code was 1
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.runDakotaInConsole(DakotaRunnerLaunchConfigurationDelegate.java:357)
+	at gov.sandia.dakota.runner.launch.DakotaRunnerLaunchConfigurationDelegate.launch(DakotaRunnerLaunchConfigurationDelegate.java:145)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
