@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;WinDAMC_InternalErosionDakotaP1/run_results/run-2023-06-12-11-17-44&apos;" deleteContents="false" description="Delete resource &apos;WinDAMC_InternalErosionDakotaP1/run_results/run-2023-06-12-11-17-44&apos;" element1="/WinDAMC_InternalErosionDakotaP1/run_results/run-2023-06-12-11-17-44" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1686586668945"/>
+</session>

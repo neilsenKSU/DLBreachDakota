@@ -7,7 +7,7 @@ environment,
 method,
 	id_method = 'mps'									 
 	multidim_parameter_study
-	  partitions = 0 0 0
+	  partitions = 12 12 12
 #	sampling
 #	  sample_type lhs
 #	  seed = 12345
