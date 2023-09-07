@@ -1,0 +1,2260 @@
+Dakota version 6.17 released Nov. 15 2022.
+Repository revision a32262a0e (2022-11-09) built Nov 11 2022 13:54:06.
+Running serial Dakota executable in serial mode.
+Start time: Tue Sep  5 12:51:10 2023
+
+--------------------------------------------------------------------------------------------------------
+Begin DAKOTA input file
+C:\Users\signu\Repos\DLBreachDakota\dakota_gui_workspace\WinDAMC_InternalErosionDakota\WinDAMOptimize.in
+--------------------------------------------------------------------------------------------------------
+environment
+	tabular_data
+		tabular_data_file "dakota_opt.dat"
+	output_file "dakota.out"
+	error_file "dakota.err"
+	write_restart "dakota.rst"
+
+method
+	id_method "method1"
+	asynch_pattern_search
+		model_pointer "model1"
+
+model
+	id_model "model1"
+	single
+		interface_pointer "interface1"
+	variables_pointer "variables1"
+	responses_pointer "responses1"
+
+variables
+	id_variables "variables1"
+	active
+		design
+	continuous_design 9
+		initial_point 0.025  12.2   15.56   0.028   0.3     15577224.206  19.0    33.0   2.5      # 
+		lower_bounds  0.016  11.6   15.50   0.010   0.0     13880000.000  18.0    1.5    1.0      # 
+		upper_bounds  0.035  12.8   15.60   0.050   0.6     17285000.000  21.0    66.0   5.0      # 
+		descriptors   'mn'   'l_cw' 'l_dh'  'l_ibd' 'l_ibh' 'v_rv'        'd_tuw' 'e_kd' 'p_tauc' # 
+
+interface
+	id_interface "interface1"
+	analysis_drivers "WinDAMOptimize.bat"
+		system
+			parameters_file 'params.in'
+			results_file 'results.out'
+
+responses
+	id_responses "responses1"
+	descriptors "AvgErr"
+	objective_functions 1
+	no_gradients
+	no_hessians
+---------------------
+End DAKOTA input file
+---------------------
+
+Using Dakota input file 'C:\Users\signu\Repos\DLBreachDakota\dakota_gui_workspace\WinDAMC_InternalErosionDakota\WinDAMOptimize.in'
+Writing new restart file 'dakota.rst'.
+
+>>>>> Executing environment.
+
+>>>>> Running asynch_pattern_search iterator.
+
+------------------------------
+Begin interface1 Evaluation    1
+------------------------------
+Parameters for evaluation 1:
+                      2.5000000000e-02 mn
+                      1.2200000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      3.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.3000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 1:
+Active set vector = { 1 }
+                      7.9809400000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation    2
+------------------------------
+Parameters for evaluation 2:
+                      2.5000000000e-02 mn
+                      1.2200000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      3.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.3000000000e+01 e_kd
+                      1.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 2:
+Active set vector = { 1 }
+                      7.9809400000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation    3
+------------------------------
+Parameters for evaluation 3:
+                      2.5000000000e-02 mn
+                      1.2200000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      3.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.4000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 3:
+Active set vector = { 1 }
+                      7.9809400000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation    4
+------------------------------
+Parameters for evaluation 4:
+                      2.5000000000e-02 mn
+                      1.2200000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      5.0000000000e-02 l_ibd
+                      3.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.3000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 4:
+Active set vector = { 1 }
+                      8.4851000000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation    5
+------------------------------
+Parameters for evaluation 5:
+                      2.5000000000e-02 mn
+                      1.2200000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      3.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      2.0000000000e+01 d_tuw
+                      3.3000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 5:
+Active set vector = { 1 }
+                      7.9809400000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation    6
+------------------------------
+Parameters for evaluation 6:
+                      2.5000000000e-02 mn
+                      1.2200000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      3.0000000000e-01 l_ibh
+                      1.5577223206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.3000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 6:
+Active set vector = { 1 }
+                      7.9809400000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation    7
+------------------------------
+Parameters for evaluation 7:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      3.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.3000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 7:
+Active set vector = { 1 }
+                      7.9797900000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation    8
+------------------------------
+Parameters for evaluation 8:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      3.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.4000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 8:
+Active set vector = { 1 }
+                      7.9797900000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation    9
+------------------------------
+Parameters for evaluation 9:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      3.0000000000e-01 l_ibh
+                      1.5577223206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.3000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 9:
+Active set vector = { 1 }
+                      7.9797900000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   10
+------------------------------
+Parameters for evaluation 10:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      3.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.3000000000e+01 e_kd
+                      3.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 10:
+Active set vector = { 1 }
+                      7.9797900000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   11
+------------------------------
+Parameters for evaluation 11:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      3.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 11:
+Active set vector = { 1 }
+                      7.7271300000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   12
+------------------------------
+Parameters for evaluation 12:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      3.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      1.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 12:
+Active set vector = { 1 }
+                      7.7382400000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   13
+------------------------------
+Parameters for evaluation 13:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5600000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      3.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 13:
+Active set vector = { 1 }
+                      7.7271300000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   14
+------------------------------
+Parameters for evaluation 14:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      5.0000000000e-02 l_ibd
+                      3.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 14:
+Active set vector = { 1 }
+                      8.4739900000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   15
+------------------------------
+Parameters for evaluation 15:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      1.0000000000e-02 l_ibd
+                      3.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 15:
+Active set vector = { 1 }
+                      7.7271300000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   16
+------------------------------
+Parameters for evaluation 16:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      3.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      3.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 16:
+Active set vector = { 1 }
+                      7.7271300000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   17
+------------------------------
+Parameters for evaluation 17:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      3.0000000000e-01 l_ibh
+                      1.5577225206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 17:
+Active set vector = { 1 }
+                      7.7271300000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   18
+------------------------------
+Parameters for evaluation 18:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      3.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.1000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 18:
+Active set vector = { 1 }
+                      7.7271300000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   19
+------------------------------
+Parameters for evaluation 19:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 19:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   20
+------------------------------
+Parameters for evaluation 20:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      3.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 20:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   21
+------------------------------
+Parameters for evaluation 21:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5500000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 21:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   22
+------------------------------
+Parameters for evaluation 22:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      5.0000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 22:
+Active set vector = { 1 }
+                      8.4728300000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   23
+------------------------------
+Parameters for evaluation 23:
+                      2.5000000000e-02 mn
+                      1.2600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 23:
+Active set vector = { 1 }
+                      7.7271300000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   24
+------------------------------
+Parameters for evaluation 24:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      2.0000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 24:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   25
+------------------------------
+Parameters for evaluation 25:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      1.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 25:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   26
+------------------------------
+Parameters for evaluation 26:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5600000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 26:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   27
+------------------------------
+Parameters for evaluation 27:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577225206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 27:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   28
+------------------------------
+Parameters for evaluation 28:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.1000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 28:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   29
+------------------------------
+Parameters for evaluation 29:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      1.0000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 29:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   30
+------------------------------
+Parameters for evaluation 30:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577223206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 30:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   31
+------------------------------
+Parameters for evaluation 31:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.3000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 31:
+Active set vector = { 1 }
+                      7.7370800000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   32
+------------------------------
+Parameters for evaluation 32:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.8000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 32:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   33
+------------------------------
+Parameters for evaluation 33:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      0.0000000000e+00 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 33:
+Active set vector = { 1 }
+                      8.7278000000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   34
+------------------------------
+Parameters for evaluation 34:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      3.0000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 34:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   35
+------------------------------
+Parameters for evaluation 35:
+                      2.5000000000e-02 mn
+                      1.2100000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 35:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   36
+------------------------------
+Parameters for evaluation 36:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9500000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 36:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   37
+------------------------------
+Parameters for evaluation 37:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.0000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 37:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   38
+------------------------------
+Parameters for evaluation 38:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5528750000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 38:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   39
+------------------------------
+Parameters for evaluation 39:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      4.3625000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 39:
+Active set vector = { 1 }
+                      8.2312900000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   40
+------------------------------
+Parameters for evaluation 40:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224706e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 40:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   41
+------------------------------
+Parameters for evaluation 41:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.1500000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 41:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   42
+------------------------------
+Parameters for evaluation 42:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577223706e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 42:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   43
+------------------------------
+Parameters for evaluation 43:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5591250000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 43:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   44
+------------------------------
+Parameters for evaluation 44:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2500000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 44:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   45
+------------------------------
+Parameters for evaluation 45:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.8500000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 45:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   46
+------------------------------
+Parameters for evaluation 46:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      1.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 46:
+Active set vector = { 1 }
+                      7.7394000000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   47
+------------------------------
+Parameters for evaluation 47:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.7500000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 47:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   48
+------------------------------
+Parameters for evaluation 48:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      1.2375000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 48:
+Active set vector = { 1 }
+                      8.4728300000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   49
+------------------------------
+Parameters for evaluation 49:
+                      2.5000000000e-02 mn
+                      1.1850000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 49:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   50
+------------------------------
+Parameters for evaluation 50:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9250000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 50:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   51
+------------------------------
+Parameters for evaluation 51:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.2500000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 51:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   52
+------------------------------
+Parameters for evaluation 52:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5544375000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 52:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   53
+------------------------------
+Parameters for evaluation 53:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224456e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 53:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   54
+------------------------------
+Parameters for evaluation 54:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.1750000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 54:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   55
+------------------------------
+Parameters for evaluation 55:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577223956e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 55:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   56
+------------------------------
+Parameters for evaluation 56:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5575625000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 56:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   57
+------------------------------
+Parameters for evaluation 57:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2250000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 57:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   58
+------------------------------
+Parameters for evaluation 58:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.8750000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 58:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   59
+------------------------------
+Parameters for evaluation 59:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      3.5000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 59:
+Active set vector = { 1 }
+                      7.7271300000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   60
+------------------------------
+Parameters for evaluation 60:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.6250000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 60:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   61
+------------------------------
+Parameters for evaluation 61:
+                      2.5000000000e-02 mn
+                      1.1725000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 61:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   62
+------------------------------
+Parameters for evaluation 62:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9125000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 62:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   63
+------------------------------
+Parameters for evaluation 63:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.3750000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 63:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   64
+------------------------------
+Parameters for evaluation 64:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224331e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 64:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   65
+------------------------------
+Parameters for evaluation 65:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.1875000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 65:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   66
+------------------------------
+Parameters for evaluation 66:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224081e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 66:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   67
+------------------------------
+Parameters for evaluation 67:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2125000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 67:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   68
+------------------------------
+Parameters for evaluation 68:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.8875000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 68:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   69
+------------------------------
+Parameters for evaluation 69:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      4.7500000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 69:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   70
+------------------------------
+Parameters for evaluation 70:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5625000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 70:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   71
+------------------------------
+Parameters for evaluation 71:
+                      2.5000000000e-02 mn
+                      1.1662500000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 71:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   72
+------------------------------
+Parameters for evaluation 72:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9062500000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 72:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   73
+------------------------------
+Parameters for evaluation 73:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.4375000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 73:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   74
+------------------------------
+Parameters for evaluation 74:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224269e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 74:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   75
+------------------------------
+Parameters for evaluation 75:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.1937500000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 75:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   76
+------------------------------
+Parameters for evaluation 76:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224144e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 76:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   77
+------------------------------
+Parameters for evaluation 77:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2062500000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 77:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   78
+------------------------------
+Parameters for evaluation 78:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.8937500000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 78:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   79
+------------------------------
+Parameters for evaluation 79:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      5.3750000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 79:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   80
+------------------------------
+Parameters for evaluation 80:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5312500000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 80:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   81
+------------------------------
+Parameters for evaluation 81:
+                      2.5000000000e-02 mn
+                      1.1631250000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 81:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   82
+------------------------------
+Parameters for evaluation 82:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9031250000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 82:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   83
+------------------------------
+Parameters for evaluation 83:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.4687500000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 83:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   84
+------------------------------
+Parameters for evaluation 84:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224237e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 84:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   85
+------------------------------
+Parameters for evaluation 85:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.1968750000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 85:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   86
+------------------------------
+Parameters for evaluation 86:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224175e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 86:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   87
+------------------------------
+Parameters for evaluation 87:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2031250000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 87:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   88
+------------------------------
+Parameters for evaluation 88:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.8968750000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 88:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   89
+------------------------------
+Parameters for evaluation 89:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      5.6875000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 89:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   90
+------------------------------
+Parameters for evaluation 90:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5156250000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 90:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   91
+------------------------------
+Parameters for evaluation 91:
+                      2.5000000000e-02 mn
+                      1.1615625000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 91:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   92
+------------------------------
+Parameters for evaluation 92:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9015625000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 92:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   93
+------------------------------
+Parameters for evaluation 93:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.4843750000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 93:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   94
+------------------------------
+Parameters for evaluation 94:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224222e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 94:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   95
+------------------------------
+Parameters for evaluation 95:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.1984375000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 95:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   96
+------------------------------
+Parameters for evaluation 96:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224190e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 96:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   97
+------------------------------
+Parameters for evaluation 97:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2015625000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 97:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   98
+------------------------------
+Parameters for evaluation 98:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.8984375000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 98:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   99
+------------------------------
+Parameters for evaluation 99:
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      5.8437500000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+
+WinDAMOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 99:
+Active set vector = { 1 }
+                      7.7259700000e+02 AvgErr
+
+
+<<<<< Function evaluation summary (interface1): 99 total (99 new, 0 duplicate)
+<<<<< Best parameters          =
+                      2.5000000000e-02 mn
+                      1.1600000000e+01 l_cw
+                      1.5560000000e+01 l_dh
+                      2.8000000000e-02 l_ibd
+                      6.0000000000e-01 l_ibh
+                      1.5577224206e+07 v_rv
+                      1.9000000000e+01 d_tuw
+                      3.2000000000e+01 e_kd
+                      2.5000000000e+00 p_tauc
+<<<<< Best objective function  =
+                      7.7259700000e+02
+<<<<< Best evaluation ID: 19
+
+
+<<<<< Iterator asynch_pattern_search completed.
+<<<<< Environment execution completed.
+DAKOTA execution time in seconds:
+  Total CPU        =     11.674 [parent =     11.674, child = -1.77636e-15]
+  Total wall clock =     11.674

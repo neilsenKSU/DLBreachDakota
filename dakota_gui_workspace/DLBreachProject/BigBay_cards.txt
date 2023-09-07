@@ -4,34 +4,34 @@ Simulation_Period                   0.0, 120000.0 !Start time, End time (was 300
 Water_Density                       1000.0     ! in kg/m^3
 Water_Kinematic_Viscosity           0.000001   ! m^2/s
 
-Embankment_Height                   15.56      ! in m
-Embankment_Crest_Width              12.2       ! in m
+Embankment_Height                   1.556000000000000e+01 ! in m
+Embankment_Crest_Width              1.160000000000000e+01 ! in m
 Embankment_Upstream_Slope           0.3333     ! Vertical/Horizontal
 Embankment_Downstream_Slope         0.3333     ! Vertical/Horizontal
 Embankment_Length                   576.0      ! in m
 
 Breach_Mode                         2          !=1, Overtopping; =2, Piping
   
-Initial_Piping_Breach               15.56,0.04666666667 ! Dakota pipe depth 17.4 & pipe width (pw 0.01 to 0.05 m)
+Initial_Piping_Breach               15.56,1.000000000000000e-02 ! Dakota pipe depth 17.4 & pipe width (pw 0.01 to 0.05 m)
 Pipe_Entrance_Head_Loss_Coef        0.05       ! default 0.05, MLN values observed from 0.05 to 1.5
 Breach_Location                     2.0        ! no units
 Hard_Bottom_Elevation               0.0        ! in meter (was -2.5 to -5.0)
-Breach_Manning_n                    0.016      ! in SI unit, s/m^(1/3)
+Breach_Manning_n                    2.500000000000000e-02 ! in SI unit, s/m^(1/3)
 Noncohesive_or_Cohesive_Sediment    2          ! =1 noncohesive; =2 cohesive
 
-Sediment_Diameter                   0.0003     ! in meter
+Sediment_Diameter                   3.000000000000000e-04 ! in meter
 Sediment_Specific_Gravity           2.65       ! Unitless
-Sediment_Porosity                   0.297      ! Unitless 
+Sediment_Porosity                   3.490000000000000e-01 ! Unitless 
 Sediment_Clay_Content               0.1        ! in fraction, between 0.0 and 1.0 
-Sediment_Cohesion                   10000      ! 9000.0    ! in Pa 
-Sediment_Internal_Friction          0.6        ! Tangent of Friction Angle, unitless
-Cohesive_Soil_Erosion_kd            33         ! (for Dakota vary 1.5 to 66) ! cm^3/N-s
-Cohesive_Soil_Erosion_Tauc         	1.5        ! Pa (could vary)
+Sediment_Cohesion                   1.001550000000000e+04 ! 9000.0    ! in Pa 
+Sediment_Internal_Friction          6.750000000000002e-01 ! Tangent of Friction Angle, unitless
+Cohesive_Soil_Erosion_kd            1.962500000000000e+01 ! (for Dakota vary 1.5 to 66) ! cm^3/N-s
+Cohesive_Soil_Erosion_Tauc         	2.000000000000000e+00 ! Pa (could vary)
 
 Initial_Up&Downstream_WSL           13.59, 0.1  !Up and Downstream Initial Water Levels, in m
 Upstream_Reservoir    0, 4
 0	0
-13.33   15577224.8
+13.33   1.557722421000000e+07
 13.49   17500000
 14.10	26370000
 Downstream_Channel_Flow_Out         1576.0, 0.0018, 0.015

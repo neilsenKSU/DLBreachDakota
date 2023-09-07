@@ -98,7 +98,7 @@ ARS P1:
 		
 		MnPhSe
 			Surface Elevation	13 values across a range of [0.821, 1.003] m	default of 0.912 m
-			Pipe E.f.T.			13 values across a range of [0.9, 1.1] m		default of 1.0 m (Elevation from Top)
+			Pipe Elevation		13 values across a range of [0.2, 0.4] m		default of 0.3 m
 			Manning's N			13 values across a range of [0.016, 0.033]		default of 0.025
 		Number of runs: 2197
 		

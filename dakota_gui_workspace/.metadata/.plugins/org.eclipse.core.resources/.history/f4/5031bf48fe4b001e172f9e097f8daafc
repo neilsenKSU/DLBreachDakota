@@ -1,0 +1,2112 @@
+Dakota version 6.17 released Nov. 15 2022.
+Repository revision a32262a0e (2022-11-09) built Nov 11 2022 13:54:06.
+Running serial Dakota executable in serial mode.
+Start time: Tue Sep  5 10:02:54 2023
+
+----------------------------------------------------------------------------------------------
+Begin DAKOTA input file
+C:\Users\signu\Repos\DLBreachDakota\dakota_gui_workspace\DLBreachProjectP1\DLBreachOptimize.in
+----------------------------------------------------------------------------------------------
+environment
+	tabular_data
+		tabular_data_file "dakota_opt.dat"
+	output_file "dakota.out"
+	error_file "dakota.err"
+	write_restart "dakota.rst"
+	results_output
+		hdf5
+
+method
+	id_method "method1"
+	asynch_pattern_search
+		model_pointer "model1"
+
+model
+	id_model "model1"
+	single
+		interface_pointer "interface1"
+	variables_pointer "variables1"
+	responses_pointer "responses1"
+
+variables
+	id_variables "variables1"
+	active
+		design
+	continuous_design 12
+		initial_point 0.912 1.0   1.3  1.98 0.025 0.07 0.00013 0.34 0.625 5250 120  0.144
+		lower_bounds  0.821 0.9   1.2  1.78 0.016 0.06 0.00010 0.33 0.577 4000 23   0.000
+		upper_bounds  1.003 1.1   1.4  2.18 0.033 0.08 0.00015 0.45 0.675 5670 270  0.160
+		descriptors   "se"  "ibh" "dh" "cw" "mn"  "cc" "sd"    "po" "fat" "co" "kd" "tauc"
+
+interface
+	id_interface "interface1"
+	analysis_drivers "DLBOptimize.bat"
+		system
+			parameters_file 'params.in'
+			results_file 'results.out'
+
+responses
+	id_responses "responses1"
+	descriptors "AvgErr"
+	objective_functions 1
+	no_gradients
+	no_hessians
+---------------------
+End DAKOTA input file
+---------------------
+
+Using Dakota input file 'C:\Users\signu\Repos\DLBreachDakota\dakota_gui_workspace\DLBreachProjectP1\DLBreachOptimize.in'
+Writing new restart file 'dakota.rst'.
+
+>>>>> Executing environment.
+
+>>>>> Running asynch_pattern_search iterator.
+
+------------------------------
+Begin interface1 Evaluation    1
+------------------------------
+Parameters for evaluation 1:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 1:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation    2
+------------------------------
+Parameters for evaluation 2:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2100000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 2:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation    3
+------------------------------
+Parameters for evaluation 3:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2490000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 3:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation    4
+------------------------------
+Parameters for evaluation 4:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2510000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 4:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation    5
+------------------------------
+Parameters for evaluation 5:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.3000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 5:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation    6
+------------------------------
+Parameters for evaluation 6:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      4.5000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 6:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation    7
+------------------------------
+Parameters for evaluation 7:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.1900000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 7:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation    8
+------------------------------
+Parameters for evaluation 8:
+                      9.1200000000e-01 se
+                      1.1000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 8:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation    9
+------------------------------
+Parameters for evaluation 9:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.7800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 9:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   10
+------------------------------
+Parameters for evaluation 10:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.4000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 10:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   11
+------------------------------
+Parameters for evaluation 11:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.6000000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 11:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   12
+------------------------------
+Parameters for evaluation 12:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.7500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 12:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   13
+------------------------------
+Parameters for evaluation 13:
+                      9.1200000000e-01 se
+                      9.0000000000e-01 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 13:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   14
+------------------------------
+Parameters for evaluation 14:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      5.7700000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 14:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   15
+------------------------------
+Parameters for evaluation 15:
+                      1.0030000000e+00 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 15:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   16
+------------------------------
+Parameters for evaluation 16:
+                      8.2100000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 16:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   17
+------------------------------
+Parameters for evaluation 17:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.2000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 17:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   18
+------------------------------
+Parameters for evaluation 18:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      0.0000000000e+00 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 18:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   19
+------------------------------
+Parameters for evaluation 19:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      2.1800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 19:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   20
+------------------------------
+Parameters for evaluation 20:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2050000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 20:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   21
+------------------------------
+Parameters for evaluation 21:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2495000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 21:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   22
+------------------------------
+Parameters for evaluation 22:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2505000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 22:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   23
+------------------------------
+Parameters for evaluation 23:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.1950000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 23:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   24
+------------------------------
+Parameters for evaluation 24:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      4.0250000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 24:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   25
+------------------------------
+Parameters for evaluation 25:
+                      9.1200000000e-01 se
+                      1.0625000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 25:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   26
+------------------------------
+Parameters for evaluation 26:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.8550000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 26:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   27
+------------------------------
+Parameters for evaluation 27:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3625000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 27:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   28
+------------------------------
+Parameters for evaluation 28:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.5625000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 28:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   29
+------------------------------
+Parameters for evaluation 29:
+                      9.1200000000e-01 se
+                      9.3750000000e-01 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 29:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   30
+------------------------------
+Parameters for evaluation 30:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.5962500000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 30:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   31
+------------------------------
+Parameters for evaluation 31:
+                      9.7450000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 31:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   32
+------------------------------
+Parameters for evaluation 32:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      5.9375000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 32:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   33
+------------------------------
+Parameters for evaluation 33:
+                      8.4950000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 33:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   34
+------------------------------
+Parameters for evaluation 34:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.2375000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 34:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   35
+------------------------------
+Parameters for evaluation 35:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2025000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 35:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   36
+------------------------------
+Parameters for evaluation 36:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.9000000000e-02 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 36:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   37
+------------------------------
+Parameters for evaluation 37:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      2.1050000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 37:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   38
+------------------------------
+Parameters for evaluation 38:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2497500000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 38:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   39
+------------------------------
+Parameters for evaluation 39:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2502500000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 39:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   40
+------------------------------
+Parameters for evaluation 40:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.1975000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 40:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   41
+------------------------------
+Parameters for evaluation 41:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.7125000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 41:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   42
+------------------------------
+Parameters for evaluation 42:
+                      9.1200000000e-01 se
+                      1.0312500000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 42:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   43
+------------------------------
+Parameters for evaluation 43:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9175000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 43:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   44
+------------------------------
+Parameters for evaluation 44:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3312500000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 44:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   45
+------------------------------
+Parameters for evaluation 45:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.4062500000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 45:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   46
+------------------------------
+Parameters for evaluation 46:
+                      9.1200000000e-01 se
+                      9.6875000000e-01 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 46:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   47
+------------------------------
+Parameters for evaluation 47:
+                      9.4325000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 47:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   48
+------------------------------
+Parameters for evaluation 48:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.0937500000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 48:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   49
+------------------------------
+Parameters for evaluation 49:
+                      8.8075000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 49:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   50
+------------------------------
+Parameters for evaluation 50:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.2687500000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 50:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   51
+------------------------------
+Parameters for evaluation 51:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2012500000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 51:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   52
+------------------------------
+Parameters for evaluation 52:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      8.1500000000e-02 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 52:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   53
+------------------------------
+Parameters for evaluation 53:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      2.0425000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 53:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   54
+------------------------------
+Parameters for evaluation 54:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2498750000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 54:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   55
+------------------------------
+Parameters for evaluation 55:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2501250000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 55:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   56
+------------------------------
+Parameters for evaluation 56:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.1987500000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 56:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   57
+------------------------------
+Parameters for evaluation 57:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.5562500000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 57:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   58
+------------------------------
+Parameters for evaluation 58:
+                      9.1200000000e-01 se
+                      1.0156250000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 58:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   59
+------------------------------
+Parameters for evaluation 59:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9487500000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 59:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   60
+------------------------------
+Parameters for evaluation 60:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3156250000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 60:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   61
+------------------------------
+Parameters for evaluation 61:
+                      9.1200000000e-01 se
+                      9.8437500000e-01 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 61:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   62
+------------------------------
+Parameters for evaluation 62:
+                      9.2762500000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 62:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   63
+------------------------------
+Parameters for evaluation 63:
+                      8.9637500000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 63:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   64
+------------------------------
+Parameters for evaluation 64:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.2843750000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 64:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   65
+------------------------------
+Parameters for evaluation 65:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2006250000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 65:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   66
+------------------------------
+Parameters for evaluation 66:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.1275000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 66:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   67
+------------------------------
+Parameters for evaluation 67:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      2.0112500000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 67:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   68
+------------------------------
+Parameters for evaluation 68:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2499375000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 68:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   69
+------------------------------
+Parameters for evaluation 69:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500625000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 69:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   70
+------------------------------
+Parameters for evaluation 70:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.1993750000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 70:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   71
+------------------------------
+Parameters for evaluation 71:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9643750000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 71:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   72
+------------------------------
+Parameters for evaluation 72:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2003125000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 72:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   73
+------------------------------
+Parameters for evaluation 73:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.2837500000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 73:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   74
+------------------------------
+Parameters for evaluation 74:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9956250000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 74:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   75
+------------------------------
+Parameters for evaluation 75:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2499687500e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 75:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   76
+------------------------------
+Parameters for evaluation 76:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500312500e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 76:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   77
+------------------------------
+Parameters for evaluation 77:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.1996875000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 77:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   78
+------------------------------
+Parameters for evaluation 78:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2001562500e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 78:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   79
+------------------------------
+Parameters for evaluation 79:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2499843750e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 79:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   80
+------------------------------
+Parameters for evaluation 80:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500156250e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 80:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+
+------------------------------
+Begin interface1 Evaluation   81
+------------------------------
+Parameters for evaluation 81:
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.1998437500e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
+
+Active response data for interface1 evaluation 81:
+Active set vector = { 1 }
+                      5.4871710000e+01 AvgErr
+
+
+<<<<< Function evaluation summary (interface1): 81 total (81 new, 0 duplicate)
+<<<<< Best parameters          =
+                      9.1200000000e-01 se
+                      1.0000000000e+00 ibh
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      7.0000000000e-02 cc
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+<<<<< Best objective function  =
+                      5.4871710000e+01
+<<<<< Best evaluation ID: 1
+
+
+<<<<< Iterator asynch_pattern_search completed.
+<<<<< Environment execution completed.
+DAKOTA execution time in seconds:
+  Total CPU        =     55.649 [parent =     55.649, child =          0]
+  Total wall clock =     55.649

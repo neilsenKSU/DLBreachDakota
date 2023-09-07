@@ -1,0 +1,40 @@
+# DAKOTA INPUT FILE
+
+environment,
+	  tabular_graphics_data
+	    tabular_graphics_file = 'dakota_multidim.dat'
+
+method,
+	id_method = 'mps'									 
+	multidim_parameter_study
+	  partitions = 2 2 2 2 2 2 2 2 2
+#	sampling
+#	  sample_type lhs
+#	  seed = 12345
+#	  samples = 4
+model, 
+	id_model = 'single'
+	single
+
+variables,
+	id_variables = 'triangular'
+	    triangular_uncertain = 9
+	  tuv_modes         0.025  12.2   15.56   0.013   0.3     15577224.206  19.0    33.0   2.5      # 
+	  tuv_lower_bounds  0.016  11.6   15.50   0.010   0.0     13880000.000  18.0    1.5    1.0      # 
+	  tuv_upper_bounds  0.035  12.8   15.60   0.050   0.6     17285000.000  21.0    66.0   5.0      # 
+	  descriptors       'mn'   'l_cw' 'l_dh'  'l_ibd' 'l_ibh' 'v_rv'        'd_tuw' 'e_kd' 'p_tauc' # 
+
+interface,
+	id_interface = 'bat'
+	system					
+	  analysis_driver = 'WinDAMres.bat'
+	  parameters_file = 'params.in'
+	  results_file    = 'results.out'
+#	file_save	
+
+responses,
+	id_responses = 'max_breach_flow max_breach_time max_breach_width max_breach_depth collapse_time collapse_prior_width collapse_initial_width collapse_prior_depth collapse_initial_depth'
+	num_response_functions = 9
+	no_gradients
+	no_hessians
+	descriptors 'Qp' 'Tp' 'Bw' 'Bd' 'Tc' 'Bwbc' 'Bwac' 'Bdbc' 'Bdac'

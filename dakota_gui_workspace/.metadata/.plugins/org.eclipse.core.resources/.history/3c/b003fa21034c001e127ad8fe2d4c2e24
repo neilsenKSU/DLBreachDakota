@@ -1,0 +1,44 @@
+# DAKOTA INPUT FILE
+
+environment,
+	  tabular_graphics_data
+	    tabular_graphics_file = 'dakota_multidim.dat'
+
+method,
+	id_method = 'mps'									 
+	multidim_parameter_study
+	  partitions = 1
+#	sampling
+#	  sample_type lhs
+#	  seed = 12345
+#	  samples = 4
+model, 
+	id_model = 'single'
+	single
+
+variables,
+	id_variables = 'triangular'
+      triangular_uncertain = 1
+      # tuv_modes         0.912  1.0   0.025  0.00013 0.34 0.625  5250 120  0.144   0.07 1.30 1.98 # 
+	  # tuv_lower_bounds  0.821  0.9   0.016  0.0001  0.33 0.577  4000 23   0.000   0.06 1.20 1.78 # 
+	  # tuv_upper_bounds  1.003  1.1   0.033  0.00015 0.45 0.675  5670 270  0.160   0.08 1.40 2.18 # 
+	  # descriptors       'se'   'ibh' 'mn'   'sd'    'po' 'fat'  'co' 'kd' 'tauc'  'cc' 'dh' 'cw' # 
+      tuv_modes         0.975 # 0.619 5260 25   1.98
+	  tuv_lower_bounds  0.97 # 0.615 5240 23   1.97
+	  tuv_upper_bounds  0.98 # 0.623 5280 27   1.99
+	  descriptors       'se' # 'fat' 'co' 'kd' 'cw'
+
+interface,
+	id_interface = 'bat'
+	system					
+	  analysis_driver = 'DLBreach.bat'
+	  parameters_file = 'params.in'
+	  results_file    = 'results.out'
+#	file_save	
+
+responses,
+	id_responses = 'Qp Tp Bw Tc Bwbc Bwac'
+	num_response_functions = 6
+	no_gradients
+	no_hessians
+	descriptors 'Qp' 'Tp' 'Bw' 'Tc' 'Bwbc' 'Bwac'

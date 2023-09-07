@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;WinDAMC_InternalErosionDakota/DLBreachOptimize.in&apos; to &apos;WinDAMOptimize.in&apos;" description="Rename resource &apos;DLBreachOptimize.in&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="DLBreachOptimize.in" name="WinDAMOptimize.in" stamp="1693934741546" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;WinDAMC_InternalErosionDakota/parseErr.exe&apos; to &apos;parseOpt.exe&apos;" description="Rename resource &apos;parseErr.exe&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="parseErr.exe" name="parseOpt.exe" stamp="1693936213895" updateReferences="true"/>
+</session>

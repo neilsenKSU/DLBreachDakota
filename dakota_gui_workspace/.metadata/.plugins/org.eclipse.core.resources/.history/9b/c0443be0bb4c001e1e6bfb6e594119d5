@@ -1,0 +1,44 @@
+# DAKOTA INPUT FILE
+
+environment,
+	  tabular_graphics_data
+	    tabular_graphics_file = 'dakota_multidim.dat'
+
+method,
+	id_method = 'mps'									 
+	multidim_parameter_study
+	  partitions = 0 0 0 0 0 0 0 0 0 0 0
+#	sampling
+#	  sample_type lhs
+#	  seed = 12345
+#	  samples = 4
+model, 
+	id_model = 'single'
+	single
+
+variables,
+	id_variables = 'triangular'
+      triangular_uncertain = 11
+      #tuv_modes			10000 33   1.5   # 15577224.8 0.013 0.025 # 15.56 12.2 0.0003 0.297 0.600 
+	  #tuv_lower_bounds	5000  1.5  1.0   # 13870000.0 0.01  0.016 # 15.51 11.6 0.0001 0.235 0.577 
+	  #tuv_upper_bounds	15000 66   5.0   # 17284449.6 0.05  0.035 # 15.61 12.8 0.0006 0.349 0.675 
+	  #descriptors       'co'  'kd' 'tc'  # 'uv'       'pw'  'mn'  # 'ch'  'cw' 'pd'   'po'  'fa'  
+      tuv_modes			10000 33   1.5    15577224.206 0.013 0.025  15.56 12.2 0.0003 0.297 0.600 
+	  tuv_lower_bounds	9999  32   1.4    15577224.205 0.012 0.024  15.55 12.1 0.0002 0.296 0.599 
+	  tuv_upper_bounds	10001 34   1.6    15577224.207 0.014 0.025  15.57 12.3 0.0004 0.298 0.601 
+	  descriptors       'co'  'kd' 'tc'   'uv'         'pw'  'mn'   'ch'  'cw' 'pd'   'po'  'fa'  
+
+interface,
+	id_interface = 'bat'
+	system					
+	  analysis_driver = 'DLBreach.bat'
+	  parameters_file = 'params.in'
+	  results_file    = 'results.out'
+#	file_save	
+
+responses,
+	id_responses = 'Qp Tp Bw Bd Tc Bwbc Bwac Bdbc Bdac'
+	num_response_functions = 9
+	no_gradients
+	no_hessians
+	descriptors 'Qp' 'Tp' 'Bw' 'Bd' 'Tc' 'Bwbc' 'Bwac' 'Bdbc' 'Bdac'

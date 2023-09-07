@@ -1,0 +1,44 @@
+environment
+	tabular_data
+		tabular_data_file "dakota_opt.dat"
+	output_file "dakota.out"
+	error_file "dakota.err"
+	write_restart "dakota.rst"
+	results_output
+		hdf5
+
+method
+	id_method "method1"
+	asynch_pattern_search
+		model_pointer "model1"
+
+model
+	id_model "model1"
+	single
+		interface_pointer "interface1"
+	variables_pointer "variables1"
+	responses_pointer "responses1"
+
+variables
+	id_variables "variables1"
+	active
+		design
+	continuous_design 9
+		initial_point 0.025  12.2   15.56   0.028   0.3     15577224.206  19.0    33.0   2.5      # 
+		lower_bounds  0.016  11.6   15.50   0.010   0.0     13880000.000  18.0    1.5    1.0      # 
+		upper_bounds  0.035  12.8   15.60   0.050   0.6     17285000.000  21.0    66.0   5.0      # 
+		descriptors   'mn'   'l_cw' 'l_dh'  'l_ibd' 'l_ibh' 'v_rv'        'd_tuw' 'e_kd' 'p_tauc' # 
+
+interface
+	id_interface "interface1"
+	analysis_drivers "WinDAMOptimize.bat"
+		system
+			parameters_file 'params.in'
+			results_file 'results.out'
+
+responses
+	id_responses "responses1"
+	descriptors "AvgErr"
+	objective_functions 1
+	no_gradients
+	no_hessians

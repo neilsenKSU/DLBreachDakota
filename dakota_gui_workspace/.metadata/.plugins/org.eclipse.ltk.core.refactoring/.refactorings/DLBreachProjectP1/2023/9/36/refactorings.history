@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DLBreachProjectP1/parseout2.py&apos; to &apos;parseOut2.py&apos;" description="Rename resource &apos;parseout2.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="parseout2.py" name="parseOut2.py" stamp="1693925511313" updateReferences="true"/>
+</session>

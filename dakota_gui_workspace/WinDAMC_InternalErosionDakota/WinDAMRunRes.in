@@ -7,7 +7,7 @@ environment,
 method,
 	id_method = 'mps'									 
 	multidim_parameter_study
-	  partitions = 1 1 1
+	  partitions = 0 0 0 0 0 0 0 0 0
 #	sampling
 #	  sample_type lhs
 #	  seed = 12345
@@ -18,11 +18,15 @@ model,
 
 variables,
 	id_variables = 'triangular'
-	    triangular_uncertain = 3
-	  tuv_modes         19.0  33.0  2.5  # 0.025 12.2 15.56 # 0.013 0.3  15577224.206 # 
-	  tuv_lower_bounds  18.0  1.5   1.0  # 0.016 11.6 15.50 # 0.010 0.0  13880000.000 # 
-	  tuv_upper_bounds  21.0  66.0  5.0  # 0.035 12.8 15.60 # 0.050 0.6  17285000.000 # 
-	  descriptors       'wt'  'kd'  'tu' # 'mn'  'cw' 'ch'  # 'pw'  'ph' 'uv'         # 
+	    triangular_uncertain = 9
+	  #tuv_modes         0.025  12.2   15.56   0.013   0.3     15577224.206  19.0    33.0   2.5      # 
+	  #tuv_lower_bounds  0.016  11.6   15.50   0.010   0.0     13880000.000  18.0    1.5    1.0      # 
+	  #tuv_upper_bounds  0.035  12.8   15.60   0.050   0.6     17285000.000  21.0    66.0   5.0      # 
+	  #descriptors       'mn'   'l_cw' 'l_dh'  'l_ibd' 'l_ibh' 'v_rv'        'd_tuw' 'e_kd' 'p_tauc' # 
+	  tuv_modes         0.025  11.6   15.56   0.028   0.6     15577224.206  19.0    32.0   2.5      # 
+	  tuv_lower_bounds  0.024  11.5   15.55   0.027   0.5     15577224.205  18.0    31.0   2.4      # 
+	  tuv_upper_bounds  0.026  11.7   15.57   0.029   0.7     15577224.207  20.0    33.0   2.6      # 
+	  descriptors       'mn'   'l_cw' 'l_dh'  'l_ibd' 'l_ibh' 'v_rv'        'd_tuw' 'e_kd' 'p_tauc' # 
 
 interface,
 	id_interface = 'bat'
@@ -33,8 +37,8 @@ interface,
 #	file_save	
 
 responses,
-	id_responses = 'max_breach_flow max_breach_time max_breach_width max_breach_depth collapse_time collapse_initial_width collapse_final_width collapse_initial_depth collapse_final_depth'
+	id_responses = 'max_breach_flow max_breach_time max_breach_width max_breach_depth collapse_time collapse_prior_width collapse_initial_width collapse_prior_depth collapse_initial_depth'
 	num_response_functions = 9
 	no_gradients
 	no_hessians
-	descriptors 'Qp' 'Tp' 'Bw' 'Bd' 'Tc' 'Wbc' 'Wac' 'Dbc' 'Dac'
+	descriptors 'Qp' 'Tp' 'Bw' 'Bd' 'Tc' 'Bwbc' 'Bwac' 'Bdbc' 'Bdac'

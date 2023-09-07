@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DLBreachProjectP1/P1_cards_template2.txt&apos; to &apos;P1_cards_template.txt&apos;" description="Rename resource &apos;P1_cards_template2.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="P1_cards_template2.txt" name="P1_cards_template.txt" stamp="1687191298622" updateReferences="true"/>
+</session>

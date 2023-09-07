@@ -1,6 +1,6 @@
 WINDAM    10/06/2022IE Models Eval - BigBay
 OPTION    SIMPLE    BARESOIL  NOPS      INTERNAL  
-IEMODEL   2         133.686   37.29     100       0.10445
+IEMODEL   2         0120.9540 0018.0995 100       0000.0522
 HYD                 0.1       0         0C        
                     0         0         0         0         0         
                     0         0         0         0         0         
@@ -73,20 +73,20 @@ HYD                 0.1       0         0C
                     0                                                 
 ENDTABLE
 CRESTPRFL 
-          0         51.05
-          1889.76   51.05
+          0         0051.0499
+          1889.76   0051.0499
 ENDTABLE
 STROUTE   44.259    0         ELEV
 STRUCTURE BigBay    
                     0                   0                   
-                    43.734              12628.680           
+                    43.734              12628.6798           
                     44.259              14187.502           
                     46.260              21378.539           
 ENDTABLE
-UPSTREAM  3         0.025
-DAMCREST  40.03     0.025
-DWNSTREAM 3         0.025
-CONDUIT   0.030     0.030     2         944.882
+UPSTREAM  3         0000.0250
+DAMCREST  0038.0577 0000.0250
+DWNSTREAM 3         0000.0250
+CONDUIT   0000.0919 0000.0919 0001.9685 944.882
 TAILWATER
 ENDTABLE
 OUTPUT    ALL

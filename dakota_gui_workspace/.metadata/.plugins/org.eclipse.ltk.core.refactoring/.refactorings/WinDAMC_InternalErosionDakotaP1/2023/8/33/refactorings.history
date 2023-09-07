@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;WinDAMC_InternalErosionDakotaP1/ARSP1-Estimate.WDC&apos; to &apos;ARSP1src.WDC&apos;" description="Rename resource &apos;ARSP1-Estimate.WDC&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ARSP1-Estimate.WDC" name="ARSP1src.WDC" stamp="1692369062526" updateReferences="true"/>
+</session>

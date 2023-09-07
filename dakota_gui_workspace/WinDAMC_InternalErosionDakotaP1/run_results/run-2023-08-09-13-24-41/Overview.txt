@@ -1,0 +1,41 @@
+Simple Correlation Matrix among all inputs and outputs:
+                       ph           se           mn           Qp           Tp           Bw           Bd           Tc         Bwbc         Bwac         Bdbc         Bdac 
+          ph  1.00000e+00 
+          se  0.00000e+00  1.00000e+00 
+          mn -9.32414e-18 -3.59088e-16  1.00000e+00 
+          Qp    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind) 
+          Tp    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind) 
+          Bw  1.39987e-14  3.03991e-14  1.42883e-14    -nan(ind)    -nan(ind)  1.00000e+00 
+          Bd -1.39987e-14 -3.03991e-14 -1.42883e-14    -nan(ind)    -nan(ind) -1.00000e+00  1.00000e+00 
+          Tc    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind) 
+        Bwbc -1.39987e-14 -3.03991e-14 -1.42883e-14    -nan(ind)    -nan(ind) -1.00000e+00  1.00000e+00    -nan(ind)  1.00000e+00 
+        Bwac  1.39987e-14  3.03991e-14  1.42883e-14    -nan(ind)    -nan(ind)  1.00000e+00 -1.00000e+00    -nan(ind) -1.00000e+00  1.00000e+00 
+        Bdbc -1.39987e-14 -3.03991e-14 -1.42883e-14    -nan(ind)    -nan(ind) -1.00000e+00  1.00000e+00    -nan(ind)  1.00000e+00 -1.00000e+00  1.00000e+00 
+        Bdac  1.39987e-14  3.03991e-14  1.42883e-14    -nan(ind)    -nan(ind)  1.00000e+00 -1.00000e+00    -nan(ind) -1.00000e+00  1.00000e+00 -1.00000e+00  1.00000e+00 
+
+Partial Correlation Matrix between input and output:
+                       Qp           Tp           Bw           Bd           Tc         Bwbc         Bwac         Bdbc         Bdac 
+          ph    -nan(ind)    -nan(ind)  1.39538e-14 -1.39505e-14    -nan(ind) -1.39512e-14  1.39681e-14 -1.39512e-14  1.39534e-14 
+          se    -nan(ind)    -nan(ind)  2.99056e-14 -2.99572e-14    -nan(ind) -2.99327e-14  2.98640e-14 -2.99327e-14  2.98712e-14 
+          mn    -nan(ind)    -nan(ind)  5.16972e-15 -5.16854e-15    -nan(ind) -5.68835e-15  6.21360e-15 -5.68835e-15  6.79442e-15 
+
+Simple Rank Correlation Matrix among all inputs and outputs:
+                       ph           se           mn           Qp           Tp           Bw           Bd           Tc         Bwbc         Bwac         Bdbc         Bdac 
+          ph  1.00000e+00 
+          se  4.33681e-19  1.00000e+00 
+          mn  4.33681e-19 -1.12757e-17  1.00000e+00 
+          Qp    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind) 
+          Tp    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind) 
+          Bw    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind) 
+          Bd    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind) 
+          Tc    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind) 
+        Bwbc    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind) 
+        Bwac    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind) 
+        Bdbc    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind) 
+        Bdac    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind) 
+
+Partial Rank Correlation Matrix between input and output:
+                       Qp           Tp           Bw           Bd           Tc         Bwbc         Bwac         Bdbc         Bdac 
+          ph    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind) 
+          se    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind) 
+          mn    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind) 

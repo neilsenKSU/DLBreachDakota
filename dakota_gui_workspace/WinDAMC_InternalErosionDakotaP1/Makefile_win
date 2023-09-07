@@ -1,0 +1,7 @@
+all: WinDamIn WinDamOut
+
+WinDamIn: parseWinDamIn.c
+	i686-w64-mingw32-gcc -o parseIn.exe parseWinDamIn.c
+
+WinDamOut: parseWinDamOut.c
+	i686-w64-mingw32-gcc -o parseOut.exe parseWinDamOut.c

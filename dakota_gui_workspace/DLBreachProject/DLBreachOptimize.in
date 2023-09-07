@@ -1,0 +1,44 @@
+environment
+	tabular_data
+		tabular_data_file "dakota_opt.dat"
+	output_file "dakota.out"
+	error_file "dakota.err"
+	write_restart "dakota.rst"
+	results_output
+		hdf5
+
+method
+	id_method "method1"
+	asynch_pattern_search
+		model_pointer "model1"
+
+model
+	id_model "model1"
+	single
+		interface_pointer "interface1"
+	variables_pointer "variables1"
+	responses_pointer "responses1"
+
+variables
+	id_variables "variables1"
+	active
+		design
+	continuous_design 11
+		initial_point 15577224.206 0.013 15.56 12.2 0.025 0.0003 0.297 0.600 10000 33.0 2.5
+		lower_bounds  13880000.000 0.010 15.51 11.6 0.016 0.0001 0.235 0.577  5000 1.50 1.0
+		upper_bounds  17285000.000 0.050 15.61 12.8 0.035 0.0006 0.349 0.675 15000 66.0 5.0
+		descriptors   "rv"         "ibd" "dh"  "cw" "mn"  "sd"    "po"  "fat" "co" "kd" "tauc"
+
+interface
+	id_interface "interface1"
+	analysis_drivers "DLBOptimize.bat"
+		system
+			parameters_file 'params.in'
+			results_file 'results.out'
+
+responses
+	id_responses "responses1"
+	descriptors "AvgErr"
+	objective_functions 1
+	no_gradients
+	no_hessians

@@ -1,0 +1,81 @@
+Dakota version 6.17 released Nov. 15 2022.
+Repository revision a32262a0e (2022-11-09) built Nov 11 2022 13:54:06.
+Running serial Dakota executable in serial mode.
+Start time: Tue Sep  5 13:34:02 2023
+
+--------------------------------------------------------------------------------------------
+Begin DAKOTA input file
+C:\Users\signu\Repos\DLBreachDakota\dakota_gui_workspace\DLBreachProject\DLBreachOptimize.in
+--------------------------------------------------------------------------------------------
+environment
+	tabular_data
+		tabular_data_file "dakota_opt.dat"
+	output_file "dakota.out"
+	error_file "dakota.err"
+	write_restart "dakota.rst"
+	results_output
+		hdf5
+
+method
+	id_method "method1"
+	asynch_pattern_search
+		model_pointer "model1"
+
+model
+	id_model "model1"
+	single
+		interface_pointer "interface1"
+	variables_pointer "variables1"
+	responses_pointer "responses1"
+
+variables
+	id_variables "variables1"
+	active
+		design
+	continuous_design 11
+		initial_point 0.912 1.0   1.3  1.98 0.025 0.00013 0.34 0.625 5250 120  0.144
+		lower_bounds  0.821 0.9   1.2  1.78 0.016 0.00010 0.33 0.577 4000 23   0.000
+		upper_bounds  1.003 1.1   1.4  2.18 0.033 0.00015 0.45 0.675 5670 270  0.160
+		descriptors   "rv"  "ibd" "dh" "cw" "mn"  "sd"    "po" "fat" "co" "kd" "tauc"
+
+interface
+	id_interface "interface1"
+	analysis_drivers "DLBOptimize.bat"
+		system
+			parameters_file 'params.in'
+			results_file 'results.out'
+
+responses
+	id_responses "responses1"
+	descriptors "AvgErr"
+	objective_functions 1
+	no_gradients
+	no_hessians
+---------------------
+End DAKOTA input file
+---------------------
+
+Using Dakota input file 'C:\Users\signu\Repos\DLBreachDakota\dakota_gui_workspace\DLBreachProject\DLBreachOptimize.in'
+Writing new restart file 'dakota.rst'.
+
+>>>>> Executing environment.
+
+>>>>> Running asynch_pattern_search iterator.
+
+------------------------------
+Begin interface1 Evaluation    1
+------------------------------
+Parameters for evaluation 1:
+                      9.1200000000e-01 rv
+                      1.0000000000e+00 ibd
+                      1.3000000000e+00 dh
+                      1.9800000000e+00 cw
+                      2.5000000000e-02 mn
+                      1.3000000000e-04 sd
+                      3.4000000000e-01 po
+                      6.2500000000e-01 fat
+                      5.2500000000e+03 co
+                      1.2000000000e+02 kd
+                      1.4400000000e-01 tauc
+
+DLBOptimize.bat params.in results.out
